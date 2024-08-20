@@ -26,7 +26,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("Hello from DALL-E!");
+  res.send("Hello from Hugging Face API Image Generation!!");
 });
 
 // Error handling middleware
