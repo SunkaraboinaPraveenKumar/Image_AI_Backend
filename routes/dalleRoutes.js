@@ -12,7 +12,7 @@ const RETRY_DELAY_MS = 5000; // 5 seconds
 const fetchImage = async (prompt, retries = 0) => {
   try {
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
+      "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
       {
         headers: {
           Authorization: `Bearer ${process.env.HUGGINGFACE_API_KEY}`,
